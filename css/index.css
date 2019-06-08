@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 0;
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-jpg {
+    margin: 10px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
