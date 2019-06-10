@@ -319,14 +319,8 @@ nav a {
   flex-wrap: wrap;
   width: 100%;
   margin: 0 20px;
-  
+  justify-content: space-between;
 }
-/* .card img {
-  
-  width: 45%;
-  height: auto;
-  margin: 10px;
-} */
 
 .main-content .card {
   padding: 20px;
