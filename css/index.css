@@ -306,6 +306,7 @@ nav a {
 
 .jumbo {
   margin: 10px 0;
+  width: 100%;
 }
 
 .about {
@@ -316,6 +317,46 @@ nav a {
 .main-content {
   display: flex;
   flex-wrap: wrap;
-  width: 395px;
+  width: 100%;
+  margin: 0 20px;
   
-};
+}
+/* .card img {
+  
+  width: 45%;
+  height: auto;
+  margin: 10px;
+} */
+
+.main-content .card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+  width: 395px;
+
+}
+.card p {
+  width: 395px;  
+}
+
+button {
+  font-size: 12px;
+  margin: 10px;
+  padding: 11px 25px;
+  border-radius: 7px;
+  background: white;
+  border-color: black;
+  outline-width: thin;
+  cursor: pointer;
+}
+.end {
+  display: inline;
+  margin: 10px;
+  justify-content: flex-start;
+}
+.nav-end {
+  width: 100%;
+  background-color: black;
+  color: white;
+  
+}
