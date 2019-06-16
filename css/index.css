@@ -177,7 +177,7 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 20px;
+  margin: 20px 0;
   border-bottom: 1px dashed black;
 }
 
@@ -329,13 +329,18 @@ nav a {
   width: 395px;
 
 }
+
+.card h3 {
+  margin-top: 10px;
+}
 .card p {
+  margin: 20px 0;
   width: 395px;  
 }
 
 button {
   font-size: 12px;
-  margin: 10px;
+  margin: 10px 0;
   padding: 11px 25px;
   border-radius: 7px;
   background: white;
